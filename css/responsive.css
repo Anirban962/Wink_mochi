@@ -1,0 +1,1295 @@
+
+
+@media(min-width:1600px){
+  
+}
+
+@media(max-width:1365px){
+    .banner_pic {
+        margin-right: 0;
+    }
+    .wave_text {
+        margin-bottom: -150px;
+        padding: 0 20px;
+    }
+    .ylw_curveHdng h3 {
+        font-size: 44px;
+    }
+    .about_fruit{
+        max-width: 120px;
+    }
+    .juice_wavetext {
+        left: 0;
+        right: 0;
+    }
+    .testimo_txt{
+        padding: 30px 20px;
+    }
+}
+@media(max-width:1199px){
+ 
+.header_outer .navbar-nav li {
+    margin-right: 18px;
+}
+.hdr_logo {
+    max-width: 180px;
+}
+.banner_text h2{
+    font-size: 80px;
+}
+.banner_text h2 span{
+    font-size: 70px;
+}
+.bnr_para p {
+    font-size: 17px;
+    line-height: 26px;
+}
+.banner_sec:after{
+    bottom: 0;
+}
+.product_bxArea {
+    padding: 120px 0 30px;
+}
+.pridcut_line {
+    left: 75px;
+    top: -175px;
+    max-width: 300px;
+}
+.product_text h3{
+    font-size: 20px;
+}
+.blue_wave_area {
+    padding: 235px 0 190px;
+}
+.page_hdng h2{
+    font-size: 50px;
+}
+.hdng_para p {
+    font-size: 17px;
+    line-height: 26px;
+}
+.overlap_text h3, .fruit_text h4 {
+    font-size: 26px;
+}
+.overlap_text{
+    padding: 30px;
+}
+.ylw_curveHdng h3 {
+    font-size: 32px;
+}
+.about_para p {
+    font-size: 17px;
+    line-height: 26px;
+}
+.more_btn {
+    margin-top: 25px;
+}
+.about_totalPic {
+    margin-left: 0;
+}
+.about_textpnl {
+    padding-left: 30px;
+}
+.testimonial {
+    padding: 30px 0 80px 0;
+}
+
+/* ========================================== */
+.ftr_form_head{
+    padding-bottom:30px;
+    padding-top: 46px;
+ }
+ .form_box {
+    margin-right: 9px;
+ }
+ .upper_arw::after{
+    top: 50px;
+ }
+ .hours {
+    display: flex;
+    align-items: flex-start;
+ }
+/* ========================================== */
+ .inner_bnr{
+    padding: 180px 0 206px;
+ }
+ .qr_code {
+    padding: 50px 0;
+ }
+ .qr_left p {
+    font-size: 18px;
+    padding-bottom: 35px;
+ }
+ .limb_img{
+    width: 100px;
+ }
+ .qr_img img{
+    margin-left:0;
+   }
+  
+   .write_us {
+    padding-top: 30px;
+ }
+ .mail_box p {
+    font-size: 20px;
+ }
+ .mail_adress {
+    padding-bottom: 25px;
+  }
+ .mail_adress a {
+  font-size: 20px;
+ }
+ /* ========================================== */
+ .right_tabhead h2{
+    font-size: 50px;
+ }
+ .bnr_hdng h1{
+    font-size: 80px;
+ }
+ .faq_tab {
+    padding: 35px 0 70px;
+}
+.faq_tab .left_sec .nav-pills .nav-link{
+    font-size: 17px;
+}
+.faq_tab .left_sec .nav {
+    margin-top: 164px;
+}
+.faq_tab .right_txt .card button.btn-link{
+ font-size:29px;
+}
+.faq_tab .right_txt .accordion .card-body p{
+ padding: 13px 0;
+ }
+  /* ========================================== */
+  .faq_topics {
+    padding: 35px 0 50px;
+ }
+ .right_title h2 {
+    font-size: 55px;
+    margin-bottom:20px;
+ }
+ .faq_topics .left_side {
+    margin-top: 95px;
+ }
+ .faq_list li {
+    padding-bottom: 12px;
+ }
+ .category_head h3{
+    margin: 20px 0 30px;
+    font-size: 20px;
+ }
+ .category_sec{
+    padding: 30px;
+ }
+   /* ========================================== */
+   .content_box {
+    padding: 75px 0;
+}
+.content_head h3 {
+    font-size: 22px;
+}
+.sub_list ul li{
+ padding-bottom:15px;
+}
+.sub_content {
+    padding-top: 17px;
+}
+.sub_head h5{
+ font-size: 19px;
+ }
+ /* ========================================== */
+ .bnr_hdng h1{
+    font-size: 80px;
+  }
+  .content_body p{
+    padding: 10px 0;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .eur{
+      font-size: 18px;
+  }
+  .content_sec {
+    padding-top: 30px;
+ }
+ .shipping_policyArea ul li{
+    margin-bottom: 5px;
+ }
+}
+
+@media(max-width:991px){
+  .header_outer{
+    padding: 15px 0;
+}
+
+.hdr_logo{
+    top: 0;
+}
+.navbar-toggler-icon{
+    color: #fff;
+    cursor: pointer;
+    height: 45px;
+    width: 45px;
+    font-size: 20px;
+    background-color: #f3237f;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-toggler{
+    padding: 0;
+    order: 3;
+}
+.header_outer .navbar-nav li {
+    margin-right: 0;
+}
+   .navbar-expand-md .navbar-nav .nav-link {
+        padding: 5px 10px;
+        color: #fff;
+}
+
+.header_outer .navbar-nav li a:hover:after, .header_outer .navbar-nav li.current-menu-item a:after{
+    display: none;
+}
+
+.header_outer .container{
+    position: relative;
+}
+.header_outer .navbar-collapse{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    margin: 15px 0 0;
+}
+.header_outer .navbar-nav li:nth-child(5) {
+    margin-left: 0;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 7px 20px;
+}
+.shrink.header_outer .navbar-nav li a:hover, .header_outer .navbar-nav li.current-menu-item a, .header_outer .navbar-nav li a:hover{
+    background-color: #f3237f;
+    color: #fff;
+}
+
+.loginsrch_slct_area{
+    margin-left: auto;
+    margin-right: 15px;
+}
+.hdr_slectbx .btn{
+    height: 44px;
+}
+.hdr_slectbx .filter-option{
+    line-height: 44px;
+}
+.header_outer .navbar-collapse {
+    padding-left: 13px !important;
+}
+.header_outer .navbar-nav .nav-item{
+    margin-left: -13px !important;
+    margin-right: 0px !important;
+}
+.banner_sec{
+    padding-top: 175px;
+}
+.banner_text h2 {
+    font-size: 65px;
+}
+.banner_text h2 span {
+    font-size: 55px;
+    display: inline-block;
+}
+.bnr_btn {
+    margin: 30px 0 0;
+}
+.banner_pic {
+    margin: 30px 0 0;
+}
+.basic_btn {
+    font-size: 16px;
+    height: 54px;
+    letter-spacing: 0.5px;
+}
+.product_bxArea {
+    padding: 65px 0 30px;
+}
+.pdct_hover {
+    padding-top: 15px;
+    height: auto;
+    overflow: visible;
+    transition: 0.7s;
+    opacity: 1;
+    visibility: visible;
+}
+.prdct_wink {
+    max-width: 75px;
+}
+.wink1 {
+    left: -20px;
+}
+.wink2 {
+    bottom: 0;
+    right: -20px;
+}
+.product_bxItem{
+    margin-bottom: 95px;
+}
+.product_bxItem:hover{
+    margin-top: 0;
+}
+.page_hdng {
+    margin-bottom: 40px;
+}
+.blue_wave_area{
+    background-image: none !important;
+    background-color: #834ab3;
+    padding: 65px 0 95px;
+}
+.wave_text, .strwberry_pic{
+    display: none;
+}
+.product_bxOuter{
+    margin-bottom: -85px;
+}
+.page_hdng h2 {
+    font-size: 40px;
+    line-height: 46px;
+}
+.blue_hdngOuter{
+    margin-bottom: 30px;
+}
+.strwberry_picOuter{
+    margin-bottom: 30px;
+}
+.blue_picRightpnl {
+    display: flex;
+    margin: 0 -15px;
+}
+.fruit_picItem {
+    width: 50%;
+    padding: 0 15px;
+}
+.ylw_hdngArea {
+    padding: 35px 15px;
+    margin-top: -60px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.ylw_curveHdng h3 {
+    font-size: 26px;
+}
+.page_hdng h2 br{
+    display: none;
+}
+.slick-center .testimo_block {
+    height: 385px;
+}
+.testimo_txt p {
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    line-height: 28px;
+}
+.wink3{
+    right: -20px;
+}
+.about_textpnl {
+    padding-left: 0;
+}
+/* =========================================== */
+.ftr_form_head {
+    padding-bottom: 30px;
+    padding-top: 35px;
+}
+.ftr_form_head p{
+ font-size: 23px;    
+}
+.signup_box {
+    padding-bottom: 45px;
+}
+.signup_box .form-control{
+    padding: 0 50px;
+}
+.signup_box .custom_form{
+    background-position: left 18px top 50%;
+}
+.signup_box .submit{
+    padding: 0 30px;
+    height: 57px;
+}
+.ftr_head {
+    margin-bottom: 19px;
+}
+
+ .ftr_social{
+ margin-bottom:45px;
+}
+.ftr_menu {
+    padding-bottom: 35px;
+}
+.ftr_form_head h3 {
+    font-size: 60px;
+}
+
+ /* =========================================== */
+ .bnr_hdng h1{
+    font-size: 58px;
+    line-height: 68px;
+}
+.inner_bnr{
+    padding: 125px 0 135px;
+}
+.qr_code {
+    padding: 40px 0;
+}
+
+.write_us {
+    padding-top: 20px;
+}
+
+.mail_box p {
+    font-size: 16px;
+}
+.mail_adress a {
+    font-size: 18px;
+}
+.strawberry {
+    margin-bottom: -100px;
+    margin-top: 7px;
+}
+.form_submit {
+    margin-top: 28px;
+}
+.write_name {
+    margin-bottom: 11px;
+}
+.write_name .form-control{
+    height: 48px;
+ }
+ /* =========================================== */
+ .bnr_hdng h3{
+    font-size:35px;
+   }
+   
+   .faq_banner .idea_srchOuter {
+       margin-top:10px;
+   }
+   .srch_area .form-control{
+       height: 60px;
+   }
+
+   .breadcrumb_sec {
+       padding-bottom: 20px;
+   }
+   .right_tabhead h2{
+       font-size: 40px;
+   }
+   .faq_tab .right_txt .accordion .card{
+     margin-top: 24px;
+   }
+   .faq_tab .left_sec .nav {
+       margin-top: 147px;
+   }
+   .faq_tab .left_sec .nav-pills .nav-link {
+       font-size: 15px;
+   }
+   .faq_tab .right_txt .card button.btn-link{
+    font-size:20px;
+   }
+
+   .faq_tab {
+       padding: 30px 0 55px;
+   }
+   .faq_tab .right_txt .accordion .card-body p{
+       font-size: 16px;
+       padding: 9px 0;
+   }
+   /* =========================================== */
+   .faq_topics {
+    padding: 20px 0 35px;
+}
+.category_icon{
+  width:30px;
+}
+.category_head h3 {
+    margin: 15px 0 20px;
+    font-size: 13px;
+}
+.category_count p{
+  font-size:15px;
+}
+.right_side {
+  margin-bottom: 15px;
+}
+.category_sec {
+  padding: 25px;
+}
+.faq_list li a{
+  font-size: 14px;
+}
+.right_title h2{
+ font-size:45px;
+ }
+  /* =========================================== */
+  .privacy_head h1 span{
+    margin-left: 0px;
+   }
+   
+   .content_head h3 {
+       font-size: 20px;
+   }
+   .content_box {
+       padding: 45px 0;
+   }
+   .content_body p{
+    font-size: 17px;
+    padding: 10px 0;
+   line-height: 27px;
+   }
+   .goods, .txt_sec{
+       font-size: 18px;
+   }
+   .sub_list ul li{
+    font-size: 17px;
+    padding-bottom: 10px;
+   }
+   .sub_head h5{
+    font-size: 20px;
+    line-height: 34px;
+   }
+   .gdpr{
+    font-size: 17px;
+   }
+   .content_body p a{
+    font-size: 17px;
+   }
+   .para_head {
+       padding-top: 15px;
+   }
+   .para_head h6{
+    font-size:17px;
+   }
+   /* =========================================== */
+   .shipping_policyArea {
+    padding: 30px 0 90px;
+ }
+}
+
+@media(max-width:767px){
+    .hdr_logo {
+        max-width: 140px;
+    }
+    .banner_sec {
+        padding-top: 135px;
+    }
+    .banner_text h2 {
+        font-size: 60px;
+        line-height: 65px;
+    }
+    .blue_hdngOuter .whiteylw_hdng, .blue_hdngOuter .hdng_para {
+        width: 100%;
+        margin: 0;
+    }
+.blue_hdngOuter .hdng_para{
+    margin-top: 20px;
+}
+
+.juice_icon {
+    right: -25px;
+    max-width: 100px;
+}
+.about_mochiArea {
+    padding: 40px 0 30px;
+}
+.slick-center .testimo_block {
+    height: 500px;
+}
+/* ======================================= */
+
+.upper_arw span{
+    width: 65px;
+    display: inline-block;
+}
+.upper_arw::after {
+    top: 35px;
+}
+
+.ftr_menu {
+    padding-bottom: 17px;
+}
+.hours{
+ margin-bottom: 35px;
+}
+.ftr_form_head {
+    padding-bottom: 30px;
+    padding-top: 27px;
+}
+.ftr_form_head p {
+    font-size: 17px;
+    line-height:25px;
+}
+.signup_box .form-control {
+    padding: 0 36px;
+    height: 50px;
+}
+.signup_box .form-control {
+    font-size: 13px;
+}
+.signup_box .custom_form {
+    background-position: left 8px top 50%;
+}
+
+.signup_box .form-control {
+    font-size: 13px;
+}
+.signup_box .submit{
+    font-size: 16px;
+}
+.signup_box form {
+    padding-bottom: 40px;
+}
+.ftr_contact p{
+    padding-bottom: 20px;
+ }
+ /* ======================================= */
+ .inner_bnr {
+    padding: 120px 0 150px;
+}
+ 
+   .qr_left p{
+    padding-bottom: 25px;
+ }
+ .qr_img{
+    text-align: center;
+    margin-top: 15px;
+ }
+ .write_us {
+    padding-top: 30px;
+}
+
+.mail_box p {
+    font-size: 20px;
+}
+.mail_adress a {
+    font-size: 20px;
+}
+.strawberry{
+  text-align: center;
+}
+.strawberry img{
+  width:90%;
+}
+.writeus_form{
+    margin-top: 70px;   
+}
+.form_submit{
+ margin-bottom:35px;
+ text-align: center;
+}
+ .form_submit .submit{
+ width: 150px;
+ font-size: 18px;
+ padding: 0 30px;
+ }
+  /* ======================================= */
+  .bnr_hdng h1 {
+    font-size: 48px;
+    line-height: 56px;
+}
+.srch_area .form-control{
+ padding:0 17px;
+ height: 60px;
+ font-size: 16px;
+}
+.faq_banner .idea_srchOuter {
+    margin-top: 15px;
+}
+
+ .faq_tab .left_sec .nav{
+  flex-direction:row !important;
+  justify-content: left;
+ }
+.breadcrumb_sec{
+ display:none;
+}
+.faq_tab .left_sec .nav {
+    margin-top: 0px;
+}
+.faq_tab .left_sec .nav-pills .nav-link {
+    font-size: 15px;
+    border: 1px solid #000;
+    margin-top: 10px;
+    margin-right: 9px;
+}
+.right_tabhead h2 {
+    font-size: 30px;
+    margin-top: 30px;
+}
+.faq_tab .right_txt .card button.btn-link{
+    padding: 10px 15px;
+ }
+  /* ======================================= */
+  .faq_topics .left_side {
+    margin-top: 0;
+}
+.faq_list{
+ display: flex;
+ flex-wrap: wrap;
+}
+.faq_list li {
+    padding-right: 15px;
+    border: 1px solid #000;
+    margin-top: 10px;
+    border-radius: 6px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    margin-right:15px;
+    
+}
+.faq_list li:last-child{
+ padding:15px;
+}
+.right_title{
+ margin-top:40px;
+}
+.category_sec {
+    padding: 15px;
+}
+.category_icon {
+    width: 50px;
+}
+.category_head h3 {
+    margin: 15px 0;
+    font-size: 16px;
+}
+.category_count p {
+    font-size: 16px;
+}
+
+.right_side {
+    margin-bottom: 25px;
+}
+.right_title h2 {
+    font-size: 40px;
+ }
+ /* ======================================= */
+ .content_body p {
+    font-size: 16px;
+    padding: 8px  0;
+    line-height: 26px;
+}
+.sub_list ul li {
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 20px;
+}
+.gdpr {
+    font-size: 15px;
+}
+.content_body p a {
+    font-size: 15px;
+}
+.content_head{
+ padding-bottom:10px;
+ }
+  /* ======================================= */
+  .shipping_policyArea {
+    padding: 30px 0 60px;
+}
+ .shipping_policyArea ul li{
+    font-size: 16px;
+ }
+ .content_sec {
+    padding-top: 20px;
+}
+.shipping_policyArea ul {
+    margin-top: 0px;
+ }
+ .goods{
+     font-size: 16px;
+ }
+ .terms_addrs p, .txt_sec {
+    font-size: 17px;
+    line-height: 27px;
+}
+}
+
+@media(max-width:575px){
+    .header_outer {
+        padding: 15px;
+    }
+    .srch_loginicon li + li {
+        margin-left: 12px;
+    }
+    .srch_loginicon {
+        margin-right: 12px;
+    }
+    .wink1 {
+        left: 0;
+    }
+    .wink2 {
+        right: 0;
+    }
+    .wink3 {
+        right: 0;
+    }
+    .product_bxArea{
+        overflow: hidden;
+    }
+    .page_hdng h2 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .juice_icon{
+        right: 0;
+    }
+    .testimo_slider_inn .slick-arrow, .collection_slider .slick-arrow {
+        width: 40px;
+        height: 40px;
+        background-size: 18px;
+    }
+
+    /* ================================================ */
+    .signup_form{
+        flex-wrap: wrap;
+      }
+      .form_box{
+        width: 100%;
+        margin-bottom: 18px;
+      }
+      .signup_box .custom_name:first-child {
+        padding-left: 31px;
+     }
+     .signup_box .form-control {
+        font-size: 14px;
+    }
+     .ftr_form_head h3{
+        font-size: 50px;
+     }
+     .ftr_form_head p {
+        font-size: 19px;
+        line-height: 30px;
+     }
+     .signup_btn {
+        width: 100%;
+        text-align: center;
+    }
+     .ftr_logo{
+        padding-bottom: 17px;
+     }
+     .signup_box {
+        padding-bottom: 25px;
+     }
+    
+     .signup_box .submit {
+        padding: 0 30px;
+        height: 50px;
+        font-size: 16px;
+    }
+    
+     .upper_arw span {
+        width: 55px;
+        display: inline-block;
+     }
+     .upper_arw::after {
+        top: 30px;
+     }
+        /* ================================================ */
+        .inner_bnr {
+            padding: 135px 0 150px;
+        }
+         .bnr_hdng h1 {
+            font-size: 50px;
+        }
+         
+        .qr_left p {
+            padding-bottom: 20px;
+            font-size: 16px;
+            line-height: 26px;
+        }
+        .qr_img{
+            margin-top: 25px;
+        }
+        .write_us {
+            padding-top: 15px;
+        }
+        
+        .mail_box p {
+            font-size:16px;
+            line-height:26px;
+        }
+        .mail_adress a {
+            font-size: 16px;
+        }
+        .strawberry img {
+            width: 80%;
+        }
+        .add_txt .form-control{
+         height:90px;
+        }
+        .form_submit .submit {
+            width: 130px;
+            font-size: 16px;
+            padding: 0 30px;
+            height:50px;
+        }
+         /* ================================================ */
+         .faq_tab {
+            padding: 30px 0 60px;
+        }
+          
+          .bnr_hdng h3 {
+            font-size: 30px;
+         }
+         .bnr_hdng h1 {
+            font-size: 50px;
+            line-height:58px;
+        }
+         .faq_banner .idea_srchOuter {
+            margin-top: 25px;
+        }
+         .srch_area .form-control {
+            padding: 0 14px;
+            height: 50px;
+            font-size: 15px;
+        }
+        .faq_tab .left_sec .nav {
+            margin-top: -30px;
+        }
+        .faq_tab .left_sec .nav{
+            align-items: center;
+            justify-content: center;
+        }
+        .right_tabhead h2 {
+            font-size: 30px;
+            margin-top: 30px;
+        }
+        .faq_tab .left_sec .nav-pills .nav-link{
+          font-size: 14px;
+        }
+        .faq_tab .right_txt .card button.btn-link {
+            font-size: 16px;
+        }
+        .faq_tab .right_txt .accordion .card-body p {
+            font-size: 14px;
+            padding: 6px 0;
+         }
+         /* ================================================ */
+         .faq_list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+         }
+         .faq_list li{
+          margin-right:10px;
+         }
+         .faq_topics {
+            padding: 15px 0 40px;
+        }
+        .right_title h2 {
+            font-size: 36px;
+        }
+        /* ================================================ */
+        .content_head h3 {
+            font-size: 17px;
+           }
+           .content_body p{
+            padding: 10px 0;
+            font-size: 14px;
+            line-height: 24px;
+           }
+           .sub_head h5{
+            font-size: 18px;
+           }
+            /* ================================================ */
+            .shipping_policyArea ul li {
+                font-size: 14px;
+            }
+            .content_sec {
+                padding-top: 15px;
+            }
+            .shipping_policyArea {
+                padding: 25px 0 40px;
+            }
+     }
+@media(max-width:480px){
+    .banner_text h2 {
+        font-size: 46px;
+        line-height: 56px;
+    }
+    .banner_text h2 span {
+        font-size: 46px;
+    }
+    .bnr_para p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .bnr_list li{
+        font-size: 16px;
+    }
+    .pridcut_line{
+        display: none;
+    }
+    .product_bxArea {
+        padding: 20px 0 30px;
+    }
+    .page_hdng {
+        margin-bottom: 30px;
+    }
+    .blue_picRightpnl{
+        flex-wrap: wrap;
+    }
+    .fruit_picItem {
+        width: 100%;
+    }
+    .fruit_picItem img{
+        width: 100%;
+    }
+    .pdct_hover h5{
+        font-size: 16px;
+    }
+    .slick-center .testimo_block {
+        height: auto;
+        margin-top: 0;
+    }
+    .testimo_txt p{
+        margin-bottom: 30px;
+    }
+    .testimo_txt p{
+        font-size: 21px;
+        letter-spacing: 0px;
+    }
+    .name_row span{
+        font-size: 23px;
+    }
+    /* ============================================= */
+    .ftr_menu ul li a{
+        font-size: 13px;
+     }
+     .ftr_head h5 {
+        font-size: 20px;
+     }
+     .ftr_form_head p {
+        font-size: 16px;
+        line-height: 27px;
+    }
+    .ftr_form_head h3 {
+        font-size: 45px;
+    }
+    /* ============================================= */
+    .page_hdng h2 {
+        font-size: 27px;
+        line-height: 34px;
+    }
+    .qr_left p {
+        padding-bottom: 15px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .mail_box p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .mail_adress {
+        padding-bottom: 15px;
+    }
+    /* ============================================= */
+    .bnr_hdng h3 {
+        font-size: 30px;
+    }
+    .bnr_hdng h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .srch_area{
+     padding-right:13px;
+    }
+    .srch_icon{
+     width:30px;
+     height:30px;
+    }
+    .faq_tab .left_sec .nav-pills .nav-link{
+     font-size:14px;
+    }
+    .right_tabhead h2 {
+        font-size: 26px;
+        margin-top: 45px;
+    }
+    .faq_tab .right_txt .card button.btn-link {
+        font-size: 17px;
+    }
+    .faq_banner .idea_srchOuter{
+      margin-top:15px;
+    }
+     /* ============================================= */
+     .right_title {
+        margin-top: 50px;
+    }
+    .right_title h2 {
+        font-size: 30px;
+    }
+    .category_head h3{
+        font-size: 18px;
+    }
+    .category_count p {
+        font-size: 16px;
+    }
+     /* ============================================= */
+     .sub_list ul li{
+        padding-bottom: 15px;
+     }
+     .sub_head h5{
+        line-height: 30px;
+     }
+   }
+@media(max-width:420px){
+    .hdr_slectbx .btn {
+        height: 36px;
+        padding: 0 10px;
+        width: 65px;
+        font-size: 12px;
+    }
+    .navbar-toggler-icon {
+        height: 35px;
+        width: 35px;
+        font-size: 16px;
+    }
+    .hdr_slectbx .filter-option {
+        line-height: 36px;
+    }
+    .loginsrch_slct_area{
+        margin-right: 5px;
+    }
+    .hdr_logo {
+        max-width: 92px;
+    }
+    .banner_sec {
+        padding-top: 90px;
+    }
+    .prdct_wink {
+        max-width: 50px;
+    }
+    .overlap_text h3, .fruit_text h4 {
+        font-size: 20px;
+    }
+    .ylw_curveHdng h3 {
+        font-size: 18px;
+    }
+    .about_fruit {
+        max-width: 75px;
+        top: -30px;
+    }
+
+    /* ================================== */
+    .ftr_form_head h3 {
+        font-size: 35px;
+        line-height: 23px;
+    }
+    .ftr_form_head p {
+        font-size: 17px;
+        line-height: 30px;
+    }
+    .ftr_menu ul li a {
+        font-size: 11px;
+    }
+    .ftr_contact ul li a{
+        font-size:13px;
+    }
+    .hours p{
+      font-size:13px;
+    }
+    .ftr_para p{
+        font-size: 13px;
+    }
+    /* ================================== */
+    .inner_bnr {
+        padding: 100px 0 120px;
+    }
+   
+    .page_hdng h2 {
+        font-size: 22px;
+        line-height: 34px;
+    }
+    /* ================================== */
+    .faq_tab .left_sec .nav-pills .nav-link {
+        font-size: 13px;
+    }
+    .faq_tab .right_txt .accordion .card-body p {
+        font-size: 12px;
+        padding: 6px 0;
+    }
+    .bnr_hdng h1 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .bnr_hdng h3 {
+        font-size: 22px;
+    }
+    .faq_banner .idea_srchOuter {
+        margin-top: 12px;
+    }
+ 
+    .srch_area .form-control {
+        padding: 0 14px;
+        height: 40px;
+        font-size: 14px;
+    }
+    
+    .srch_icon {
+        width: 20px;
+        height: 20px;
+    }
+    .faq_tab .left_sec .nav {
+        margin-top: -33px;
+    }
+    .faq_tab .right_txt .card button.btn-link {
+        font-size: 14px;
+    }
+     /* ================================== */
+     .faq_list li a {
+        font-size: 13px;
+     }
+     .faq_topics .col-md-9 .col-6{
+        flex: 0 0 100%;
+        max-width: 100%;
+     }
+      /* ================================== */
+      .content_head h3 {
+        font-size: 15px;
+    }
+    .content_body p {
+        font-size: 13px;
+        line-height: 23px;
+    }
+    .sub_head h5 {
+        font-size: 15px;
+    }
+    .sub_list ul li{
+        font-size: 13px;
+        padding-bottom: 10px;
+    }
+    .para_head h6 {
+        font-size: 15px;
+    }
+    .content_body p a {
+        font-size: 13px;
+    }
+    .gdpr {
+        font-size: 13px;
+    }
+    .sub_head h5 {
+        line-height: 24px;
+    } 
+    .terms_addrs p, .txt_sec{
+        font-size: 16px;
+    }
+    .terms_addrs {
+        padding-top: 0;
+    }
+}
+/*End */

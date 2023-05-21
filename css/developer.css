@@ -1,0 +1,926 @@
+/*CSS Media Queries*/
+@media(max-width:1365px){
+}
+
+@media (max-width: 1199px) {
+     /*recipe responsive  */
+     .recipevdo_area{
+        margin-top: -165px;
+     }
+     .info_fruit{
+        left: 0;
+        top: -116px;
+     }
+     .hdng_iconpic{
+        top: -36px;
+     }
+     .info_para p{
+        line-height:35px;
+     }
+     .count_text p{
+        line-height:35px;
+     }
+     .information_area {
+        padding-bottom: 30px;
+    }
+    .count_nmbr{
+        font-size: 25px;
+    }
+     /*recipe responsive  */
+     /*about responsive */
+     .images1 {
+        top: -65px;
+        left: -92px;
+        max-width: 100px;
+    }
+     .whats {
+        padding: 60px 0;
+    }
+    
+    .whats_image {
+        bottom: 24px;
+        left: 68px;
+     }
+     
+     .ribbon_img {
+        position: absolute;
+        left: 28px;
+        bottom: -136px;
+    }
+    .images2{
+      bottom: -17%;
+    }
+    .images2 img {
+        max-width: 150px;
+    }
+    .what_down_para p{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .why .about_textpnl {
+        margin-top: 30px;
+    }
+    .use_info p {
+        margin-top: 35px;
+    }
+    .use_info{
+     padding: 30px 0 100px 0;
+    }
+    .use_info h3 {
+        font-size: 50px;
+        line-height: 55px;
+    }
+    .invited_coma_1 {
+        top:0%;
+        left: 0;
+        max-width: 70px;
+    }
+    .invited_coma_2 {
+        bottom: 65%;
+        right: 0;
+        max-width: 70px;
+    }
+    .why{
+        padding: 63px 0 80px  0;
+    }
+    .use_info h6{
+        font-size: 45px;
+        margin-top: 35px;
+    }
+    .seed {
+        padding: 75px 0 85px 0;
+    }
+    .seed h2{
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .bnr_hdng span img{
+        max-width:185px;
+    }
+    .bnr_hdng h2{
+        font-size: 35px;
+     }
+     /*about responsive */ 
+       /*Idea responsive */
+       .hdng_iconpic{
+        max-width: 100px;
+       }
+       .idea_srchOuter {
+        margin-top: 35px;
+    }
+    .idea_slctbx {
+        min-width: 160px;
+        margin-right: 15px;
+    }
+    .ideas_area {
+        padding: 0 0 85px;
+    }
+    .idea_row {
+        margin-bottom: 60px;
+    }
+    .idea_row .page_hdng{
+        margin-bottom: 40px;
+    }
+    .idea_para p{
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .idea_textpnl h5{
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+    .idea_textpnl h3{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .idea_textpnl p{
+        font-size: 18px;
+    }
+    .ideabx_item {
+        margin-bottom: 20px;
+    }
+    .idea_slctbx .hdr_slectbx .btn{
+        padding: 0 25px;
+        height: 68px;
+    }
+    .idea_slctbx .bootstrap-select .dropdown-toggle .caret{
+        right: 35px;
+    }
+       /*Idea responsive */
+}
+
+@media (max-width: 991px) {
+      /*recipe responsive  */
+      .recipevdo_area {
+        margin-top: 0;
+        padding-top: 50px;
+     }
+     .hdng_iconpic{
+        max-width: 80px;
+        right: -84px;
+        top: -10px;
+     }
+     .vdo_btn{
+        height: 165px;
+        width: 165px;
+     }
+     .vdo_play{
+        height: 100px;
+        width: 100px;
+        font-size: 35px;
+     }
+     .info_line{
+       display:none;
+     }
+     .page_hdng.recipe_hdng{
+        margin-top: 175px;
+     }
+     .info_para p{
+        font-size: 17px;
+        line-height: 30px;
+        margin-bottom: 25px;
+     }
+     .page_hdng.recipe_hdng {
+        margin-top: 150px;
+    }
+    .step_area {
+        padding: 50px 0 30px;
+    }
+    .step_pic{
+      padding-left:0;
+      margin-right:0;
+      text-align:center;
+    }
+    .step_lftpnl{
+        margin-top: -190px;
+    }
+    .page_hdng span img{
+        max-width: 95px;
+    }
+    .page_hdng.recipe_hdng{
+        margin-bottom: 15px;
+    }
+    .count_nmbr{
+        height: 40px;
+        width: 40px;
+        min-width: 40px;
+        font-size: 20px;
+    }
+    .count_text p{
+        font-size: 17px;
+        line-height: 30px;
+    }
+      /*recipe responsive  */
+       /*about responsive */
+       .bnr_hdng span img{
+        max-width: 150px;
+       }
+       .page_hdng p{
+        font-size: 15px;
+        line-height: 26px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+       }
+       .whats {
+        padding: 55px 0;
+    }
+    .images1 {
+        top: -50px;
+        left: -60px;
+        max-width: 85px;
+    }
+    .whats_image {
+        bottom: 5px;
+       left: 95px;
+    }
+    .whats .page_hdng span{
+        font-size: 15px;
+        line-height: 26px;
+    }
+    .images2 img {
+        max-width: 120px;
+    }
+    .images2 {
+        bottom: -24%;
+    }
+    .ribbon_img {
+        left: 13px;
+        bottom: -147px;
+    }
+    .what_down_para p{
+        font-size: 37px;
+        line-height: 45px;
+    }
+    .why {
+        padding: 75px 0 35px 0;
+    }
+    .about_para p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .use_info h3 {
+        font-size: 37px;
+        line-height: 45px;
+    }
+    .invited_coma_1 {
+        top: 32px;
+        left: 0;
+        max-width: 60px;
+    }
+    .invited_coma_2 {
+        bottom: 63%;
+        right: 0;
+        max-width: 60px;
+    }
+    .use_info {
+        padding: 55px 0 75px  0;
+    }
+    .use_info p{
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .use_info h6{
+        margin-top: 20px;
+        font-size: 37px;
+  }
+  .seed h2 {
+    font-size: 35px;
+    line-height: 50px;
+    margin-bottom: 35px;
+}
+  .seed {
+    padding: 55px 0 70px;
+}
+ .abt_hdng h1 span{
+    margin-left: 15px;
+ }
+ .bnr_hdng h2{
+    font-size: 27px;
+ }
+
+ /*about responsive */
+ /*Idea responsive */
+ .inner_bnr .hdng_iconpic{
+    max-width: 70px;
+ }
+ .idea_slctbx{
+    min-width: 155px;
+    margin-right: 14px;
+ }
+ .idea_slctbx .hdr_slectbx .filter-option {
+    line-height: 60px;
+ }
+ .idea_slctbx .hdr_slectbx .btn{
+    height: 60px;
+    padding: 0 20px;
+ }
+ .idea_para p {
+    font-size: 15px;
+    line-height: 30px;
+    margin-bottom: 20px;
+ }
+ .idea_row .page_hdng {
+    margin-bottom: 22px;
+ }
+ .ideas_area {
+    padding: 30px 0 60px;
+ }
+ .idea_row {
+    margin-bottom: 48px;
+ }
+ .idea_row:last-child{
+    margin-top: -30px;
+ }
+ .idea_textpnl h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+ }
+ .idea_textpnl p {
+    font-size: 15px;
+ }
+ .idea_textpnl{
+    padding: 20px;
+ }
+ .idea_pic{
+    padding: 15px 10px;
+ }
+  /*Idea responsive */
+  .idea_slctbx .bootstrap-select .dropdown-toggle .caret{
+    right: 30px;
+  }
+}
+
+@media (max-width: 767px){
+    /*recipe responsive  */
+    .hdng_iconpic {
+        max-width: 70px;
+        right: -75px;
+        top: -13px;
+    }
+    .vdo_btn {
+        height: 145px;
+        width: 145px;
+    }
+    .vdo_play {
+        height: 95px;
+        width: 95px;
+        font-size: 30px;
+    }
+    .page_hdng span img {
+        max-width: 85px;
+    }
+    .page_hdng.recipe_hdng {
+        margin-top: 135px;
+    }
+    .info_fruit{
+        top:-105px;
+    }
+    .step_count_row{
+        margin-bottom: 25px;
+    }
+    .step_pic{
+        margin-top: 35px;
+    }
+    .recipe_vdo_pic figure img {
+        border-radius: 50px;
+    }
+    /*recipe responsive  */
+    /*about responsive */
+    .ribbon_img{
+     display:none;
+    }
+    .whats_image {
+        bottom: inherit;
+        left: inherit;
+        z-index: 1;
+        transform: none;
+        position: static;
+        text-align: center;
+    }
+    .whats {
+        padding: 30px 0;
+    }
+  
+    .bnr_hdng span img {
+        max-width: 120px;
+    }
+    .abt_hdng h1 span {
+        margin-left: 10px;
+    }
+    .images1 {
+        top: -23%;
+        left: 15px;
+        max-width: 95px;
+    }
+
+    .images2 {
+    bottom: -22%;
+    right: 58px;
+}
+    .images2 img {
+        max-width: 95px;
+    }
+    .what_down_para p {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .about_totalPic{
+      margin-top: 20px;
+    }
+   
+    .use_info h3 {
+        font-size: 27px;
+        line-height: 35px;
+    }
+    .use_info {
+        padding: 35px 0 85px 0;
+    }
+    .invited_coma_1 {
+        top: 9%;
+        left: 0;
+        max-width: 35px;
+    }
+    .invited_coma_2 {
+        bottom: 72%;
+        right: 0;
+        max-width: 35px;
+    }
+    .what_down_para {
+        padding: 70px  0 0 0;
+    }
+    .use_info p {
+        margin-top: 35px;
+    }
+    .use_info p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .seed {
+        padding: 55px 0 75px 0;
+    }
+    .seed h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+     .why .row{
+     flex-direction:column-reverse;
+    }
+    .why .about_textpnl {
+        margin-top: -30px;
+    }
+    /*about responsive */
+     /*Idea responsive */
+     .idea_slctbx .hdr_slectbx .btn {
+        height: 60px;
+        padding: 0 30px;
+        font-size: 17px;
+    }
+    .idea_slctbx .bootstrap-select .dropdown-toggle .caret {
+        right: 30px;
+        height: 9px;
+        width: 13px;
+    }
+    .idea_slctbx{
+        min-width: 145px;
+    }
+    .inner_bnr .hdng_iconpic {
+        max-width: 65px;
+    }
+    .hdng_iconpic {
+        right: -49px;
+        top: -31px;
+    }
+    .ideas_area {
+        padding: 20px 0 50px;
+    }
+    .idea_para p {
+        font-size: 15px;
+        line-height: 27px;
+        margin-bottom: 17px;
+    }
+    .idea_para {
+        text-align: left;
+    }
+    .idea_row {
+        margin-bottom: 35px;
+    }
+    .idea_pic {
+        padding: 10px 15px;
+    }
+    .idea_textpnl {
+        padding: 15px;
+    }
+    .idea_textpnl h3 {
+        font-size: 23px;
+        margin-bottom: 10px;
+    }
+    .idea_pic{
+        max-height: 262px;
+    }
+    .ideabx_item {
+        margin-bottom: 30px;
+    }
+    /*Idea responsive */
+}
+
+@media (max-width: 575px) {
+    /*recipe responsive  */
+    .hdng_iconpic {
+        max-width: 55px;
+        right: -20px;
+        top: -37px;
+    }
+    .vdo_play {
+        height: 85px;
+        width: 85px;
+        font-size: 25px;
+    }
+    .vdo_btn {
+        height: 130px;
+        width: 130px;
+    }
+    .page_hdng span img {
+        max-width: 75px;
+    }
+    .page_hdng.recipe_hdng {
+        margin-top: 115px;
+    }
+    .info_fruit {
+        top: -95px;
+    }
+    .info_para p {
+        font-size: 14px;
+        line-height: 26px;
+        margin-bottom: 20px;
+    }
+    .count_nmbr {
+        height: 35px;
+        width: 35px;
+        min-width: 35px;
+        font-size: 15px;
+        margin-right: 15px;
+    }
+    .count_text p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .step_pic {
+        margin-top: 25px;
+    }
+    .step_area {
+        padding: 50px 0 19px;
+    }
+    .recipevdo_area{
+        padding-top: 25px;
+    }
+    .recipe_vdo_pic figure img {
+        border-radius: 40px;
+    }
+    /*recipe responsive  */
+    /*about responsive */
+    .bnr_hdng span img {
+        max-width: 115px;
+    }
+      .whats {
+        padding: 0 0 30px;
+    }
+    .images1{
+      top:-20%;
+      max-width: 85px;
+    }
+    .images2 img {
+        max-width: 85px;
+    }
+    .images2 {
+        bottom: -17%;
+        right: 58px;
+    }
+    .what_down_para p {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .why {
+        padding: 65px 0 35px 0;
+    }
+    .why .about_textpnl {
+        margin-top: -43px;
+    }
+    .about_totalPic {
+        margin-top: 30px;
+
+    }
+    .use_info h3 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .invited_coma_1 {
+        top: 10%;
+        left: 0;
+        max-width: 24px;
+    }
+    .invited_coma_2 {
+        bottom: 71%;
+        right: 0px;
+        max-width: 24px;
+    }
+    .use_info p {
+        margin-top: 20px;
+    }
+    .seed {
+        padding: 45px 0 60px 0;
+    }
+    .seed h2 {
+        font-size: 27px;
+        line-height: 37px;
+    }
+    .bnr_hdng h2 {
+        font-size: 23px;
+    }
+    .use_info h6 {
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    .use_info {
+        padding: 50px  0 75px 0;
+    }
+      /*about responsive */
+      /*Idea responsive */
+      .inner_bnr .hdng_iconpic {
+        max-width: 60px;
+    }
+    .hdng_iconpic {
+        right: -11px;
+        top: -43px;
+    }
+    .idea_slctbx .hdr_slectbx .btn {
+        height: 50px;
+        padding: 0 25px;
+        font-size: 15px;
+    }
+    .idea_slctbx .hdr_slectbx .filter-option {
+        line-height: 50px;
+    }
+    .idea_slctbx {
+        min-width: 130px;
+    }
+    .idea_slctbx .bootstrap-select .dropdown-toggle .caret {
+        right: 30px;
+        height: 9px;
+        width: 11px;
+    }
+    .ideas_area {
+        padding: 15px 0 35px;
+    }
+    .ideabx_item {
+        margin-bottom: 35px;
+    }
+    .idea_pic {
+        max-height: 265px;
+        padding: 15px;
+    }
+    .idea_textpnl {
+        padding: 15px;
+    }
+    .idea_textpnl h3{
+        font-size: 20px;
+    }
+    .ideas_area {
+        padding: 15px 0 25px;
+    }
+     /*Idea responsive */
+   }
+
+@media (max-width: 480px) {
+    /*recipe responsive  */
+    .hdng_iconpic {
+        max-width: 55px;
+        right: 27px;
+        top: -22px;
+    }
+    .vdo_play {
+        height: 75px;
+        width: 75px;
+        font-size: 20px;
+    }
+    .vdo_btn {
+        height: 110px;
+        width: 110px;
+    }
+    .page_hdng span img {
+        max-width: 65px;
+    }
+    .page_hdng.recipe_hdng {
+        margin-top: 100px;
+    }
+    .info_fruit {
+        top: -85px;
+    }
+    .recipevdo_area{
+        padding-top: 10px;
+     }
+     .recipe_vdo_pic figure img {
+        border-radius: 30px;
+    }
+   /*recipe responsive  */
+   /*about responsive */
+ .bnr_hdng span img {
+    max-width: 105px;
+}
+.bnr_hdng h2 {
+    font-size: 20px;
+}
+.whats .page_hdng {
+    margin-top: 26px;
+}
+ .images1{
+    top: -13%;
+ }
+ .page_hdng p {
+    font-size: 13px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+ }
+ .whats .page_hdng span {
+    font-size: 13px;
+    line-height: 25px;
+ }
+ .what_down_para p {
+    font-size: 20px;
+    line-height: 27px;
+}
+.about_para p {
+    font-size: 12px;
+    line-height: 24px;
+}
+ .use_info h3 {
+    font-size: 24px;
+    line-height: 30px;
+}
+ .use_info p {
+    font-size: 13px;
+    line-height: 25px;
+    margin-top: 35px;
+ }
+ .invited_coma_2 {
+    bottom: 71%;
+}
+ .use_info h6{
+    font-size: 27px;
+    margin-top: 15px;
+ }
+ .seed {
+    padding: 40px 0 50px 0;
+ }
+ .seed h2 {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 30px;
+ }
+ .why {
+    padding: 40px 0 25px 0;
+}
+ /*about responsive */
+  /*Idea responsive */
+  .inner_bnr .hdng_iconpic {
+    max-width: 50px;
+ }
+ .hdng_iconpic {
+    right: 27px;
+    top: -31px;
+ }
+ .idea_slctbx {
+    min-width: 115px;
+ }
+ .idea_slctbx .bootstrap-select .dropdown-toggle .caret{
+    right: 16px;
+ }
+ .idea_para p{
+    font-size: 15px;
+    line-height: 26px;
+ }
+ .idea_row .page_hdng {
+    margin-bottom: 30px;
+ }
+ /*Idea responsive */
+}
+@media (max-width: 420px){
+    /*recipe responsive  */
+    .hdng_iconpic {
+        max-width: 50px;
+        right: 9px;
+        top: -25px;
+    }
+    .vdo_play {
+        height: 65px;
+        width: 65px;
+        font-size: 17px;
+    }
+    .vdo_btn {
+        height: 95px;
+        width: 95px;
+    }
+    
+    .page_hdng span img {
+        max-width: 60px;
+    }
+    .info_fruit {
+        top: -75px;
+    }
+    .info_para p{
+        font-size: 13px;
+        line-height: 24px;
+    }
+    .count_text p {
+        font-size: 13px;
+        line-height: 24px;
+    }
+    /*recipe responsive  */
+    /*about responsive */
+    .bnr_hdng h2 {
+        font-size: 20px;
+    }
+    .bnr_hdng span img {
+        max-width: 85px;
+    }
+    .images1{
+        top: -11%;
+        max-width: 75px;
+    }
+    .whats .page_hdng {
+        margin-top: 23px;
+    }
+    .images1{
+     top:-9%;
+    }
+    .images2 {
+        bottom: -13%;
+        right: 35px;
+    }
+    .what_down_para p {
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .use_info h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .invited_coma_2 {
+        bottom: 73%;
+    }
+    .why {
+        padding: 65px 0 15px 0;
+    }
+    .seed h2 {
+        font-size: 19px;
+        line-height: 27px;
+    }
+    .about_totalPic {
+        margin-bottom: 0;
+        margin-top: 10px;
+    }
+    .why .about_textpnl {
+        margin-top: -14px;
+    }
+    .use_info p {
+        font-size: 12px;
+        line-height: 24px;
+        margin-top: 30px;
+    }
+   /*about responsive */
+   /*Idea responsive */
+   .idea_slctbx {
+    min-width: 100px;
+ }
+ .idea_slctbx .hdr_slectbx .filter-option {
+    line-height: 40px;
+ }
+ .idea_slctbx .hdr_slectbx .btn {
+    height: 40px;
+    padding: 0 13px;
+    font-size: 14px;
+ }
+ .idea_para p {
+    font-size: 13px;
+    line-height: 25px;
+ }
+ .inner_bnr .hdng_iconpic {
+    max-width: 47px;
+ }
+ .hdng_iconpic {
+    right: 9px;
+    top: -37px;
+ }
+ .idea_row {
+    margin-bottom: 25px;
+ }
+ .idea_textpnl h5{
+    font-size: 16px;
+ }
+ .idea_textpnl h3 {
+    font-size: 17px;
+ }
+}
+/* End */
+
+

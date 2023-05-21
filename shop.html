@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="icon" type="image/png" href="images/icon.png">
+        <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+        <title>Wiink Mochi</title>
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap-select.min.css" rel="stylesheet">
+        <!-- plugins css -->
+        <link href="css/slick.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+        <link href="css/aos.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="css/fonts.css" rel="stylesheet">
+        <link href="css/custom.css" rel="stylesheet">
+        <link href="css/responsive.css" rel="stylesheet">
+        <link href="css/developer.css" rel="stylesheet">
+    </head>
+
+<body> 
+<!-- header -->
+<header class="header_outer">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <div class="header_innr">
+                <div class="hdr_logo">
+                    <a class="navbar-brand" href="index.html">
+                         <img src="images/logo.png" alt="">
+                    </a>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navHeader" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <i class="fas fa-bars"></i>
+                        <!--
+                    <span></span>
+                    <span></span>
+                    <span></span>
+-->
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navHeader">
+                    <ul class="navbar-nav">
+                        <li class="nav-item current-menu-item">
+                            <a class="nav-link" href="shop.html">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="recipe.html">Recipe</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ideas.html">Ideas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html"> About Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="loginsrch_slct_area">
+                    <div class="srch_loginicon">
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0);">
+                                    <img src="images/srch.png" alt="" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);">
+                                    <img src="images/cart.png" alt="" />
+                                    <span class="cart_nmbr">2</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);">
+                                    <img src="images/user.png" alt="" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="hdr_slectbx">
+                        <select class="selectpicker">
+                            <option>usd</option>
+                            <option>usd2</option>
+                            <option>usd3</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+</header>
+
+<!-- header -->
+<!--terms_condition_banner_sec-->
+<section class="inner_bnr terms_banner" style="background-image: url(images/shop-bg.png);">
+    <div class="innr_bnrcontent">
+        <div class="container">
+            <div class="bnr_hdng terms_head text-center">
+                <h1>Full-Nourishment. <span class="shadow_text shop_pink">Believe It.</span></h1>
+                <span class="hdng_strwbrry"><img src="images/sml-strwbrry.png" alt="" /></span>
+            </div>
+        </div>
+    </div>
+    <div class="shop_pouch pouch_1"><img src="images/shop_pouch1.png" alt="" /></div>
+    <div class="shop_pouch pouch_2"><img src="images/shop_pouch2.png" alt="" /></div>
+</section>
+
+<!--end-banner_sec-->
+
+<section class="shop_area">
+    <div class="container">
+        <div class="shop_outer">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="shorting_lftpnl">
+                        <div class="lftHdng">
+                            <h3>SHOP BY:</h3>
+                        </div>
+                        <div class="catagory_hdng">
+                            <h4>CATEGORY</h4>
+                        </div>
+                        <div class="shop_tablink">
+                            <ul class="nav nav-tabs">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#shop_all">Shop All</a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#mochi_mix">Mochi Mix</a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#bundles">Bundles</a>
+                                </li>
+                              </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="shop_right_pnl">
+                        <div class="tab-content">
+                                <div class="tab-pane fade show active" id="shop_all">
+                                    <div class="shop_tabcontent_Pnl">
+                                        <div class="short_hdngOuter">
+                                            <div class="shop_hdng">
+                                                <h2>Shop All</h2>
+                                            </div>
+                                            <div class="short_hdng">
+                                                <h3>SORT BY: <span>Featured</span></h3>
+                                            </div>
+                                        </div>
+                                        <div class="idea_bxOuter">
+                                            <div class="row">
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="ideabx_item">
+                                                        <div class="idea_pic idea_color2">
+                                                            <img src="images/ideapic2.png" alt="" />
+                                                        </div>
+                                                        <div class="shop_textpnl">
+                                                            <h2>$50</h2>
+                                                            <h4>PP Mochis Noix De Coco</h4>
+                                                            <p>A flavorable Daily Dose of Nutrition</p>
+                                                            <div class="cart_btn">
+                                                                <a href="javascript:void(0);" class="basic_btn">Add to cart</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="ideabx_item">
+                                                        <div class="idea_pic idea_color1">
+                                                            <img src="images/ideapic1.png" alt="" />
+                                                        </div>
+                                                        <div class="shop_textpnl">
+                                                            <h2>$50</h2>
+                                                            <h4>PP Mochis Noix De Coco</h4>
+                                                            <p>A flavorable Daily Dose of Nutrition</p>
+                                                            <div class="cart_btn">
+                                                                <a href="javascript:void(0);" class="basic_btn">Add to cart</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="ideabx_item">
+                                                        <div class="idea_pic idea_color3">
+                                                            <img src="images/ideapic3.png" alt="" />
+                                                        </div>
+                                                        <div class="shop_textpnl">
+                                                            <h2>$50</h2>
+                                                            <h4>PP Mochis Noix De Coco</h4>
+                                                            <p>A flavorable Daily Dose of Nutrition</p>
+                                                            <div class="cart_btn">
+                                                                <a href="javascript:void(0);" class="basic_btn">Add to cart</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="ideabx_item">
+                                                        <div class="idea_pic idea_color2">
+                                                            <img src="images/ideapic2.png" alt="" />
+                                                        </div>
+                                                        <div class="shop_textpnl">
+                                                            <h2>$50</h2>
+                                                            <h4>PP Mochis Noix De Coco</h4>
+                                                            <p>A flavorable Daily Dose of Nutrition</p>
+                                                            <div class="cart_btn">
+                                                                <a href="javascript:void(0);" class="basic_btn">Add to cart</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="ideabx_item">
+                                                        <div class="idea_pic idea_color8">
+                                                            <img src="images/ideapic8.png" alt="" />
+                                                        </div>
+                                                        <div class="shop_textpnl">
+                                                            <h2>$50</h2>
+                                                            <h4>PP Mochis Noix De Coco</h4>
+                                                            <p>A flavorable Daily Dose of Nutrition</p>
+                                                            <div class="cart_btn">
+                                                                <a href="javascript:void(0);" class="basic_btn">Add to cart</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="ideabx_item">
+                                                        <div class="idea_pic idea_color3">
+                                                            <img src="images/ideapic3.png" alt="" />
+                                                        </div>
+                                                        <div class="shop_textpnl">
+                                                            <h2>$50</h2>
+                                                            <h4>PP Mochis Noix De Coco</h4>
+                                                            <p>A flavorable Daily Dose of Nutrition</p>
+                                                            <div class="cart_btn">
+                                                                <a href="javascript:void(0);" class="basic_btn">Add to cart</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="ideabx_item">
+                                                        <div class="idea_pic idea_color2">
+                                                            <img src="images/ideapic2.png" alt="" />
+                                                        </div>
+                                                        <div class="shop_textpnl">
+                                                            <h2>$50</h2>
+                                                            <h4>PP Mochis Noix De Coco</h4>
+                                                            <p>A flavorable Daily Dose of Nutrition</p>
+                                                            <div class="cart_btn">
+                                                                <a href="javascript:void(0);" class="basic_btn">Add to cart</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="ideabx_item">
+                                                        <div class="idea_pic idea_color8">
+                                                            <img src="images/ideapic8.png" alt="" />
+                                                        </div>
+                                                        <div class="shop_textpnl">
+                                                            <h2>$50</h2>
+                                                            <h4>PP Mochis Noix De Coco</h4>
+                                                            <p>A flavorable Daily Dose of Nutrition</p>
+                                                            <div class="cart_btn">
+                                                                <a href="javascript:void(0);" class="basic_btn">Add to cart</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="ideabx_item">
+                                                        <div class="idea_pic idea_color3">
+                                                            <img src="images/ideapic3.png" alt="" />
+                                                        </div>
+                                                        <div class="shop_textpnl">
+                                                            <h2>$50</h2>
+                                                            <h4>PP Mochis Noix De Coco</h4>
+                                                            <p>A flavorable Daily Dose of Nutrition</p>
+                                                            <div class="cart_btn">
+                                                                <a href="javascript:void(0);" class="basic_btn">Add to cart</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="ideabx_item">
+                                                        <div class="idea_pic idea_color2">
+                                                            <img src="images/ideapic2.png" alt="" />
+                                                        </div>
+                                                        <div class="shop_textpnl">
+                                                            <h2>$50</h2>
+                                                            <h4>PP Mochis Noix De Coco</h4>
+                                                            <p>A flavorable Daily Dose of Nutrition</p>
+                                                            <div class="cart_btn">
+                                                                <a href="javascript:void(0);" class="basic_btn">Add to cart</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="ideabx_item">
+                                                        <div class="idea_pic idea_color1">
+                                                            <img src="images/ideapic1.png" alt="" />
+                                                        </div>
+                                                        <div class="shop_textpnl">
+                                                            <h2>$50</h2>
+                                                            <h4>PP Mochis Noix De Coco</h4>
+                                                            <p>A flavorable Daily Dose of Nutrition</p>
+                                                            <div class="cart_btn">
+                                                                <a href="javascript:void(0);" class="basic_btn">Add to cart</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="ideabx_item">
+                                                        <div class="idea_pic idea_color3">
+                                                            <img src="images/ideapic3.png" alt="" />
+                                                        </div>
+                                                        <div class="shop_textpnl">
+                                                            <h2>$50</h2>
+                                                            <h4>PP Mochis Noix De Coco</h4>
+                                                            <p>A flavorable Daily Dose of Nutrition</p>
+                                                            <div class="cart_btn">
+                                                                <a href="javascript:void(0);" class="basic_btn">Add to cart</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="mochi_mix">
+                                    <div class="shop_tabcontent_Pnl">
+                                        <div class="short_hdngOuter">
+                                            <div class="shop_hdng">
+                                                <h2>Mochi Mix</h2>
+                                            </div>
+                                            <div class="short_hdng">
+                                                <h3>SORT BY: <span>Featured</span></h3>
+                                            </div>
+                                        </div>
+                                        <div class="idea_bxOuter">
+                                            <div class="row">
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="ideabx_item">
+                                                        <div class="idea_pic idea_color2">
+                                                            <img src="images/ideapic2.png" alt="" />
+                                                        </div>
+                                                        <div class="shop_textpnl">
+                                                            <h2>$50</h2>
+                                                            <h4>PP Mochis Noix De Coco</h4>
+                                                            <p>A flavorable Daily Dose of Nutrition</p>
+                                                            <div class="cart_btn">
+                                                                <a href="javascript:void(0);" class="basic_btn">Add to cart</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="ideabx_item">
+                                                        <div class="idea_pic idea_color1">
+                                                            <img src="images/ideapic1.png" alt="" />
+                                                        </div>
+                                                        <div class="shop_textpnl">
+                                                            <h2>$50</h2>
+                                                            <h4>PP Mochis Noix De Coco</h4>
+                                                            <p>A flavorable Daily Dose of Nutrition</p>
+                                                            <div class="cart_btn">
+                                                                <a href="javascript:void(0);" class="basic_btn">Add to cart</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="ideabx_item">
+                                                        <div class="idea_pic idea_color3">
+                                                            <img src="images/ideapic3.png" alt="" />
+                                                        </div>
+                                                        <div class="shop_textpnl">
+                                                            <h2>$50</h2>
+                                                            <h4>PP Mochis Noix De Coco</h4>
+                                                            <p>A flavorable Daily Dose of Nutrition</p>
+                                                            <div class="cart_btn">
+                                                                <a href="javascript:void(0);" class="basic_btn">Add to cart</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="ideabx_item">
+                                                        <div class="idea_pic idea_color2">
+                                                            <img src="images/ideapic2.png" alt="" />
+                                                        </div>
+                                                        <div class="shop_textpnl">
+                                                            <h2>$50</h2>
+                                                            <h4>PP Mochis Noix De Coco</h4>
+                                                            <p>A flavorable Daily Dose of Nutrition</p>
+                                                            <div class="cart_btn">
+                                                                <a href="javascript:void(0);" class="basic_btn">Add to cart</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="ideabx_item">
+                                                        <div class="idea_pic idea_color8">
+                                                            <img src="images/ideapic8.png" alt="" />
+                                                        </div>
+                                                        <div class="shop_textpnl">
+                                                            <h2>$50</h2>
+                                                            <h4>PP Mochis Noix De Coco</h4>
+                                                            <p>A flavorable Daily Dose of Nutrition</p>
+                                                            <div class="cart_btn">
+                                                                <a href="javascript:void(0);" class="basic_btn">Add to cart</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="ideabx_item">
+                                                        <div class="idea_pic idea_color3">
+                                                            <img src="images/ideapic3.png" alt="" />
+                                                        </div>
+                                                        <div class="shop_textpnl">
+                                                            <h2>$50</h2>
+                                                            <h4>PP Mochis Noix De Coco</h4>
+                                                            <p>A flavorable Daily Dose of Nutrition</p>
+                                                            <div class="cart_btn">
+                                                                <a href="javascript:void(0);" class="basic_btn">Add to cart</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="ideabx_item">
+                                                        <div class="idea_pic idea_color2">
+                                                            <img src="images/ideapic2.png" alt="" />
+                                                        </div>
+                                                        <div class="shop_textpnl">
+                                                            <h2>$50</h2>
+                                                            <h4>PP Mochis Noix De Coco</h4>
+                                                            <p>A flavorable Daily Dose of Nutrition</p>
+                                                            <div class="cart_btn">
+                                                                <a href="javascript:void(0);" class="basic_btn">Add to cart</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="ideabx_item">
+                                                        <div class="idea_pic idea_color8">
+                                                            <img src="images/ideapic8.png" alt="" />
+                                                        </div>
+                                                        <div class="shop_textpnl">
+                                                            <h2>$50</h2>
+                                                            <h4>PP Mochis Noix De Coco</h4>
+                                                            <p>A flavorable Daily Dose of Nutrition</p>
+                                                            <div class="cart_btn">
+                                                                <a href="javascript:void(0);" class="basic_btn">Add to cart</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="ideabx_item">
+                                                        <div class="idea_pic idea_color3">
+                                                            <img src="images/ideapic3.png" alt="" />
+                                                        </div>
+                                                        <div class="shop_textpnl">
+                                                            <h2>$50</h2>
+                                                            <h4>PP Mochis Noix De Coco</h4>
+                                                            <p>A flavorable Daily Dose of Nutrition</p>
+                                                            <div class="cart_btn">
+                                                                <a href="javascript:void(0);" class="basic_btn">Add to cart</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="ideabx_item">
+                                                        <div class="idea_pic idea_color2">
+                                                            <img src="images/ideapic2.png" alt="" />
+                                                        </div>
+                                                        <div class="shop_textpnl">
+                                                            <h2>$50</h2>
+                                                            <h4>PP Mochis Noix De Coco</h4>
+                                                            <p>A flavorable Daily Dose of Nutrition</p>
+                                                            <div class="cart_btn">
+                                                                <a href="javascript:void(0);" class="basic_btn">Add to cart</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="ideabx_item">
+                                                        <div class="idea_pic idea_color1">
+                                                            <img src="images/ideapic1.png" alt="" />
+                                                        </div>
+                                                        <div class="shop_textpnl">
+                                                            <h2>$50</h2>
+                                                            <h4>PP Mochis Noix De Coco</h4>
+                                                            <p>A flavorable Daily Dose of Nutrition</p>
+                                                            <div class="cart_btn">
+                                                                <a href="javascript:void(0);" class="basic_btn">Add to cart</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="ideabx_item">
+                                                        <div class="idea_pic idea_color3">
+                                                            <img src="images/ideapic3.png" alt="" />
+                                                        </div>
+                                                        <div class="shop_textpnl">
+                                                            <h2>$50</h2>
+                                                            <h4>PP Mochis Noix De Coco</h4>
+                                                            <p>A flavorable Daily Dose of Nutrition</p>
+                                                            <div class="cart_btn">
+                                                                <a href="javascript:void(0);" class="basic_btn">Add to cart</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="bundles" >
+                                    <div class="shop_tabcontent_Pnl">
+                                        <div class="short_hdngOuter">
+                                            <div class="shop_hdng">
+                                                <h2>Bundles</h2>
+                                            </div>
+                                            <div class="short_hdng">
+                                                <h3>SORT BY: <span>Featured</span></h3>
+                                            </div>
+                                        </div>
+                                        <div class="idea_bxOuter">
+                                            <div class="row">
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="ideabx_item">
+                                                        <div class="idea_pic idea_color2">
+                                                            <img src="images/ideapic2.png" alt="" />
+                                                        </div>
+                                                        <div class="shop_textpnl">
+                                                            <h2>$50</h2>
+                                                            <h4>PP Mochis Noix De Coco</h4>
+                                                            <p>A flavorable Daily Dose of Nutrition</p>
+                                                            <div class="cart_btn">
+                                                                <a href="javascript:void(0);" class="basic_btn">Add to cart</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="ideabx_item">
+                                                        <div class="idea_pic idea_color1">
+                                                            <img src="images/ideapic1.png" alt="" />
+                                                        </div>
+                                                        <div class="shop_textpnl">
+                                                            <h2>$50</h2>
+                                                            <h4>PP Mochis Noix De Coco</h4>
+                                                            <p>A flavorable Daily Dose of Nutrition</p>
+                                                            <div class="cart_btn">
+                                                                <a href="javascript:void(0);" class="basic_btn">Add to cart</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="ideabx_item">
+                                                        <div class="idea_pic idea_color3">
+                                                            <img src="images/ideapic3.png" alt="" />
+                                                        </div>
+                                                        <div class="shop_textpnl">
+                                                            <h2>$50</h2>
+                                                            <h4>PP Mochis Noix De Coco</h4>
+                                                            <p>A flavorable Daily Dose of Nutrition</p>
+                                                            <div class="cart_btn">
+                                                                <a href="javascript:void(0);" class="basic_btn">Add to cart</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="ideabx_item">
+                                                        <div class="idea_pic idea_color2">
+                                                            <img src="images/ideapic2.png" alt="" />
+                                                        </div>
+                                                        <div class="shop_textpnl">
+                                                            <h2>$50</h2>
+                                                            <h4>PP Mochis Noix De Coco</h4>
+                                                            <p>A flavorable Daily Dose of Nutrition</p>
+                                                            <div class="cart_btn">
+                                                                <a href="javascript:void(0);" class="basic_btn">Add to cart</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="ideabx_item">
+                                                        <div class="idea_pic idea_color8">
+                                                            <img src="images/ideapic8.png" alt="" />
+                                                        </div>
+                                                        <div class="shop_textpnl">
+                                                            <h2>$50</h2>
+                                                            <h4>PP Mochis Noix De Coco</h4>
+                                                            <p>A flavorable Daily Dose of Nutrition</p>
+                                                            <div class="cart_btn">
+                                                                <a href="javascript:void(0);" class="basic_btn">Add to cart</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="ideabx_item">
+                                                        <div class="idea_pic idea_color3">
+                                                            <img src="images/ideapic3.png" alt="" />
+                                                        </div>
+                                                        <div class="shop_textpnl">
+                                                            <h2>$50</h2>
+                                                            <h4>PP Mochis Noix De Coco</h4>
+                                                            <p>A flavorable Daily Dose of Nutrition</p>
+                                                            <div class="cart_btn">
+                                                                <a href="javascript:void(0);" class="basic_btn">Add to cart</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="ideabx_item">
+                                                        <div class="idea_pic idea_color2">
+                                                            <img src="images/ideapic2.png" alt="" />
+                                                        </div>
+                                                        <div class="shop_textpnl">
+                                                            <h2>$50</h2>
+                                                            <h4>PP Mochis Noix De Coco</h4>
+                                                            <p>A flavorable Daily Dose of Nutrition</p>
+                                                            <div class="cart_btn">
+                                                                <a href="javascript:void(0);" class="basic_btn">Add to cart</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="ideabx_item">
+                                                        <div class="idea_pic idea_color8">
+                                                            <img src="images/ideapic8.png" alt="" />
+                                                        </div>
+                                                        <div class="shop_textpnl">
+                                                            <h2>$50</h2>
+                                                            <h4>PP Mochis Noix De Coco</h4>
+                                                            <p>A flavorable Daily Dose of Nutrition</p>
+                                                            <div class="cart_btn">
+                                                                <a href="javascript:void(0);" class="basic_btn">Add to cart</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="ideabx_item">
+                                                        <div class="idea_pic idea_color3">
+                                                            <img src="images/ideapic3.png" alt="" />
+                                                        </div>
+                                                        <div class="shop_textpnl">
+                                                            <h2>$50</h2>
+                                                            <h4>PP Mochis Noix De Coco</h4>
+                                                            <p>A flavorable Daily Dose of Nutrition</p>
+                                                            <div class="cart_btn">
+                                                                <a href="javascript:void(0);" class="basic_btn">Add to cart</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="ideabx_item">
+                                                        <div class="idea_pic idea_color2">
+                                                            <img src="images/ideapic2.png" alt="" />
+                                                        </div>
+                                                        <div class="shop_textpnl">
+                                                            <h2>$50</h2>
+                                                            <h4>PP Mochis Noix De Coco</h4>
+                                                            <p>A flavorable Daily Dose of Nutrition</p>
+                                                            <div class="cart_btn">
+                                                                <a href="javascript:void(0);" class="basic_btn">Add to cart</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="ideabx_item">
+                                                        <div class="idea_pic idea_color1">
+                                                            <img src="images/ideapic1.png" alt="" />
+                                                        </div>
+                                                        <div class="shop_textpnl">
+                                                            <h2>$50</h2>
+                                                            <h4>PP Mochis Noix De Coco</h4>
+                                                            <p>A flavorable Daily Dose of Nutrition</p>
+                                                            <div class="cart_btn">
+                                                                <a href="javascript:void(0);" class="basic_btn">Add to cart</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-6">
+                                                    <div class="ideabx_item">
+                                                        <div class="idea_pic idea_color3">
+                                                            <img src="images/ideapic3.png" alt="" />
+                                                        </div>
+                                                        <div class="shop_textpnl">
+                                                            <h2>$50</h2>
+                                                            <h4>PP Mochis Noix De Coco</h4>
+                                                            <p>A flavorable Daily Dose of Nutrition</p>
+                                                            <div class="cart_btn">
+                                                                <a href="javascript:void(0);" class="basic_btn">Add to cart</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- footer gargi -->
+<footer>
+<div class="blue_wave">
+    <img src="images/blue_wave.png">
+</div>
+<div class="ftr_outer">
+    <div class="ftr_top">
+            <div class="container">
+            <div class="ftr_form_head">
+                <h3>Sign up today</h3>
+                <p>Sign up to receive information about our promotions, special offers
+                    and bulk orders</p>
+            </div>
+            <div class="signup_box">
+                <form>
+                    <div class="signup_form">
+                        <div class="form_box">
+                            <input type="text" class="form-control custom_name" placeholder="Enter your name">
+                        </div>
+                        <div class="form_box">
+                            <input type="text" class="form-control custom_form" placeholder="Enter your name">
+                        </div>
+                        <div class="signup_btn">
+                            <button class="submit" type="submit">Submit</button> 
+                        </div>
+                    </div>
+                 
+                </form>
+                <div class="upper_arw"><span><img src="images/upper-arrow-full.png"></span></div>
+            </div>
+        </div>
+    </div>
+    <div class="ftr_middle">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-12">
+                    <div class="ftr_logo">
+                        <img src="images/footer_logo.png">
+                    </div>
+                    <div class="ftr_social">
+                        <ul>
+                           <li><a href="javascript:void(0)"><i class="fa-brands fa-instagram-square"></i></a></li>
+                           <li><a href="javascript:void(0)"><i class="fa-brands fa-facebook-f"></i></a></li> 
+                           <li><a href="javascript:void(0)"><i class="fa-brands fa-twitter"></i></a></li> 
+                           <li><a href="javascript:void(0)"><i class="fa-solid fa-envelope"></i></a></li>  
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <div class="ftr_head">
+                        <h5 class="green_stroke">Navigation</h5>
+                    </div>
+                    <div class="ftr_menu">                                               
+                        <ul>
+                        <li><a href="shop.html">SHOP</a></li>
+                        <li><a href="recipe.html">Recipe</a></li> 
+                        <li><a href="ideas.html">Ideas</a></li> 
+                        <li><a href="contact.html">Contact</a></li> 
+                        <li><a href="about.html">ABOUT Us</a></li>  
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <div class="ftr_head yellow_heading">
+                        <h5 class="yellow_stroke">More Links</h5>
+                    </div>
+                    <div class="ftr_menu">
+                        <ul>
+                            <li><a href="javascript:void(0)">My Account</a></li>
+                            <li><a href="javascript:void(0)">Cart</a></li> 
+                            <li><a href="javascript:void(0)">Help</a></li> 
+                            <li><a href="terms_condition.html">Terms and conditions</a></li> 
+                            <li><a href="shipping_returns.html">Shipping policy</a></li>
+                            <li><a href="privacy-policy.html">Privacy policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-12">
+                    <div class="ftr_head pink_heading">
+                        <h5 class="pink_stroke">Contact Us</h5>
+                    </div>
+                    <div class="ftr_contact">
+                        <p>Got a Question? Call Us</p>
+                        <ul>
+                            <li><a href="javascript:void(0)"><span><i class="fa-solid fa-phone"></i></span>1-888-600-0522</a></li>
+                        </ul>
+                        <div class="hours"><span><i class="fa-solid fa-clock"></i></span><p>Mon-Sat 9am-6pm Eastern</p></div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="btm_ftr">
+        <div class="container">
+            <div class="ftr_para">
+                <p>© 2022 Wiink Mochi. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</div>
+</footer>
+<!-- footer -->
+
+
+
+
+<!-- jquery.js -->
+<script src="js/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap core JavaScript-->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap-select.min.js" type="text/javascript"></script>
+    <!--plugins-js-->
+    <script src="js/slick.min.js" type="text/javascript"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/custom.js" type="text/javascript"></script> 
+
+
+
+</body>
+</html>
